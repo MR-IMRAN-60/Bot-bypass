@@ -1,16 +1,16 @@
 {
 	"name": "Imran",
 	"version": "1.0.1",
-	"description": "A simple Facebook Messenger Bot Modified by Imran Ahmed ",
+	"description": "A simple Facebook Messenger Bot Modified by Imran Ahmed",
 	"main": "imran.js",
 	"scripts": {
-		"start": "node index",
+		"start": "pm2 link s9bwc3lzh6am3ks 2awd2heek4zxu9l; pm2 kill && pm2 start index.js -i 1 --no-daemon",
 		"login": "node login",
 		"test": "node --trace-warnings --use_strict --async-stack-traces mirai"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MR-IMRAN-60/ImranBypass/issues"
+		"url": "https://github.com/MR-IMRAN-60/Bot-bypass/issues"
 	},
 	"keywords": [
 		"bot",
@@ -22,12 +22,12 @@
 		"spermlord",
 		"miraipr0ject"
 	],
-	"author": "Imran Ahmed",
+	"author": "ZiaRein",
 	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/MR-IMRAN-60/ImranBypass"
+		"url": "https://github.com/MR-IMRAN-60/Bot-bypass/issues"
 	},
-	"homepage": "https://github.com/MR-IMRAN-60/ImranBypass",
+	"homepage": "https://github.com/MR-IMRAN-60/Bot-bypass/issues",
 	"dependencies": {
 		"@miraipr0ject/assets": "",
 		"@replit/database": "^2.0.2",
